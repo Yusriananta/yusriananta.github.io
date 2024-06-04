@@ -8,3 +8,9 @@
 section {
   padding-top: 5rem;
 }
+@media (max-width: 80px) {
+  .carousel {
+    width: 100%; /* Atur lebar carousel menjadi 100% saat layar kecil */
+    height: auto; /* Biarkan tinggi carousel menyesuaikan dengan konten */
+  }
+}
